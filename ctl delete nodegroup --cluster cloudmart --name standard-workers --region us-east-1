@@ -1,0 +1,99 @@
+{
+    "Stacks": [
+        {
+            "StackId": "arn:aws:cloudformation:us-east-1:058264511225:stack/eksctl-cloudmart-cluster/d77bc580-e82d-11ef-a14a-0afffb6739cf",
+            "StackName": "eksctl-cloudmart-cluster",
+            "Description": "EKS cluster (dedicated VPC: true, dedicated IAM: true) [created and managed by eksctl]",
+            "CreationTime": "2025-02-11T04:08:25.869000+00:00",
+            "RollbackConfiguration": {},
+            "StackStatus": "CREATE_COMPLETE",
+            "StackStatusReason": "Delete canceled. Cannot delete export eksctl-cloudmart-cluster::ClusterSecurityGroupId as it is in use by eksctl-cloudmart-nodegroup-standard-workers.",
+            "DisableRollback": false,
+            "NotificationARNs": [],
+            "Capabilities": [
+                "CAPABILITY_IAM"
+            ],
+            "Outputs": [
+                {
+                    "OutputKey": "SubnetsPrivate",
+                    "OutputValue": "subnet-08fc86b35da3b8cee,subnet-0d83495851b6166d4",
+                    "ExportName": "eksctl-cloudmart-cluster::SubnetsPrivate"
+                },
+                {
+                    "OutputKey": "SubnetsPublic",
+                    "OutputValue": "subnet-05f7ffe52a1f3c5fd,subnet-01ba76291d03b498d",
+                    "ExportName": "eksctl-cloudmart-cluster::SubnetsPublic"
+                },
+                {
+                    "OutputKey": "FeatureNATMode",
+                    "OutputValue": "Single"
+                },
+                {
+                    "OutputKey": "ServiceRoleARN",
+                    "OutputValue": "arn:aws:iam::058264511225:role/eksctl-cloudmart-cluster-ServiceRole-CraLTla78WMH",
+                    "ExportName": "eksctl-cloudmart-cluster::ServiceRoleARN"
+                },
+                {
+                    "OutputKey": "Endpoint",
+                    "OutputValue": "https://3AFAE9AEC1F4442150A8DD3131F78DD7.gr7.us-east-1.eks.amazonaws.com",
+                    "ExportName": "eksctl-cloudmart-cluster::Endpoint"
+                },
+                {
+                    "OutputKey": "SharedNodeSecurityGroup",
+                    "OutputValue": "sg-0051bd7d27160591f",
+                    "ExportName": "eksctl-cloudmart-cluster::SharedNodeSecurityGroup"
+                },
+                {
+                    "OutputKey": "VPC",
+                    "OutputValue": "vpc-0e91469caf2d86cc0",
+                    "ExportName": "eksctl-cloudmart-cluster::VPC"
+                },
+                {
+                    "OutputKey": "ClusterSecurityGroupId",
+                    "OutputValue": "sg-0a2f8a69c1099d4ba",
+                    "ExportName": "eksctl-cloudmart-cluster::ClusterSecurityGroupId"
+                },
+                {
+                    "OutputKey": "ClusterStackName",
+                    "OutputValue": "eksctl-cloudmart-cluster"
+                },
+                {
+                    "OutputKey": "CertificateAuthorityData",
+                    "OutputValue": "LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURCVENDQWUyZ0F3SUJBZ0lJVm5UVHQ2YnZueDR3RFFZSktvWklodmNOQVFFTEJRQXdGVEVUTUJFR0ExVUUKQXhNS2EzVmlaWEp1WlhSbGN6QWVGdzB5TlRBeU1URXdOREE1TURoYUZ3MHpOVEF5TURrd05ERTBNRGhhTUJVeApFekFSQmdOVkJBTVRDbXQxWW1WeWJtVjBaWE13Z2dFaU1BMEdDU3FHU0liM0RRRUJBUVVBQTRJQkR3QXdnZ0VLCkFvSUJBUURNU2tOcndNN2F0K1RvWEZ6TUkvOU16S2s5U2FTbWVaVERqRjEvaURIZTkrQ3lOQUpzc0pYRzFMUTIKRll4Q3B5cXp5N29xODY3WC9EdkJHdk1qU1JKUEkzeDRSVmhvck5COWhsZnQ0SlMydnZOMXdrNlhNMjdnd1NqSgp4dUVMR0hSbVdhdXBSNVdaQ0FqUkxoVDFjc1FUWEFJdnVsL3F2ZUc2WkZoanFwOThlMXliLzZVTCtLVGN0Z1owCjRGbkk4K2FPYThyb3YyVWFVTjg3M2VQaGZ3ZGpqUUVVL0VIWTk4UlJXRjBwVkZWYUVhdDJ4TEFDakQ3dkZCTEwKQ1NHcjl0TXVUNFRBN09jUkVESnBsUXV4enFLdjI1RVh4c1M1MzFuSEdWOFNqZFdVMlo1K1JjWko1dU0rNHdFbgo1d0lQUm9DZTFsanpnQTVpTWtIT2d1S1B4RzlIQWdNQkFBR2pXVEJYTUE0R0ExVWREd0VCL3dRRUF3SUNwREFQCkJnTlZIUk1CQWY4RUJUQURBUUgvTUIwR0ExVWREZ1FXQkJRY0xucGhzS0RyYlU1cTcxSGF6djZ4T01QRGRUQVYKQmdOVkhSRUVEakFNZ2dwcmRXSmxjbTVsZEdWek1BMEdDU3FHU0liM0RRRUJDd1VBQTRJQkFRQVZHNjZ3MVlVQwpjMEtiRkNkNEJkN3RpemlVREJUTTdQVDR5MVFtREJTRUJZYkl6K1owaUx2cW8xeEVxaVMrNTNHN0tGb1VOVWp6Cmd4L2Jmdjg3OStMMEVaZlhVQllZMkVFMkdYMHpBWEYvWk9rRE03Z3FzcGdZbmtZWm1TSHhDMzhIZFZsb0t0bFQKRVBjdzJXZDg4ZGlNTWI0aWEzSEdZQ2VTRHZYVUp0eWVJb3V3d1E4UkVoay91bHRkK2pHVkY5RmtQS1NUMkpGbAo4M05ONjViUm5XSW4wRlgvRXJwVjMvdTkzVytOODFPb0ZncnE5cVVMTjlzWFRjMHM1Y1lTZmd1RXBaV1I4c240CjVlcTVvWVljTDlaU0ZXZVh4dldQMmt6V1B3Y0NBa0RzOGpZeTBvRVJLZC9nWVlhQzlBN2tkK3ZQVFA4VnNSN2wKVWtQQy9ZZUpvVnNmCi0tLS0tRU5EIENFUlRJRklDQVRFLS0tLS0K"
+                },
+                {
+                    "OutputKey": "SecurityGroup",
+                    "OutputValue": "sg-03f71e1e57d4bfa48",
+                    "ExportName": "eksctl-cloudmart-cluster::SecurityGroup"
+                },
+                {
+                    "OutputKey": "ARN",
+                    "OutputValue": "arn:aws:eks:us-east-1:058264511225:cluster/cloudmart",
+                    "ExportName": "eksctl-cloudmart-cluster::ARN"
+                }
+            ],
+            "Tags": [
+                {
+                    "Key": "alpha.eksctl.io/cluster-name",
+                    "Value": "cloudmart"
+                },
+                {
+                    "Key": "eksctl.cluster.k8s.io/v1alpha1/cluster-name",
+                    "Value": "cloudmart"
+                },
+                {
+                    "Key": "alpha.eksctl.io/cluster-oidc-enabled",
+                    "Value": "true"
+                },
+                {
+                    "Key": "alpha.eksctl.io/eksctl-version",
+                    "Value": "0.203.0"
+                }
+            ],
+            "EnableTerminationProtection": false,
+            "DriftInformation": {
+                "StackDriftStatus": "NOT_CHECKED"
+            }
+        }
+    ]
+}
